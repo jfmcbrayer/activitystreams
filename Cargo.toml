@@ -4,4 +4,6 @@ version = "0.1.0"
 authors = ["jmcbray"]
 
 [dependencies]
-diesel = "^0"
+diesel = { version = "1.0.0-beta1", features = ["postgres"] }
+diesel_infer_schema = { version = "1.0.0-beta1", features = ["postgres"] }
+dotenv = "0.9.0"
